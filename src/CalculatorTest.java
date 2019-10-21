@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class CalculatorTest {
 
-    Calculator obj1 = new Calculator();
+    private Calculator obj1 = new Calculator();
     @org.junit.jupiter.api.Test
     //test by adding 1 to total first. Then using assertEquals to check result of
     //mult method
