@@ -21,7 +21,6 @@ class CalculatorTest {
         assertEquals(-70, obj1.getTotal());
         obj1.mult(0);
         assertEquals(0, obj1.getTotal());
-        System.out.println(obj1.toString());
     }
 
     @org.junit.jupiter.api.Test
@@ -35,7 +34,6 @@ class CalculatorTest {
         assertEquals(-5, obj1.getTotal());
         obj1.div(-60);
         assertEquals(0, obj1.getTotal());
-        System.out.println(obj1.toString());
     }
 
     @org.junit.jupiter.api.Test
@@ -49,6 +47,5 @@ class CalculatorTest {
         assertEquals(1, obj1.getTotal());
         obj1.power(-10);
         assertEquals(0, obj1.getTotal());
-        System.out.println(obj1.toString());
     }
 }

@@ -12,10 +12,10 @@
  */
 public class AddingMachine {
 
-	public int total;
+	protected int total;
 
 	//operations will add history to this string
-    public String history = "0";
+    protected String history = "0";
 
 	public AddingMachine () {
 		total = 0;  // not needed - included for clarity
