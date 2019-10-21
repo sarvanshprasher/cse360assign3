@@ -15,7 +15,7 @@ public class Calculator extends AddingMachine {
 
     public Calculator()
     {
-        AddingMachine addingMachine = new AddingMachine();
+        super(); //invokes constructor of base class, AddingMachine
     }
 
     /**takes number and multiplies total and sets to total
